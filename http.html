@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Card</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: linear-gradient(135deg, #f093fb, #f5576c);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+
+        .card {
+            background: white;
+            border-radius: 15px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.15);
+            display: flex;
+            align-items: center;
+            padding: 20px;
+            margin: 3px;
+            max-width: 250px;
+            width: 100%;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+        }
+
+        .card img {
+            width: 120px;
+            height: 120px;
+            object-fit: cover;
+            border-radius: 50%;
+            border: 4px solid #f5576c;
+            margin-right: 20px;
+        }
+
+        .user-info {
+            flex: 1;
+        }
+
+        .user-info h2 {
+            margin: 0;
+            font-size: 1.6rem;
+            color: #333;
+        }
+
+        .user-info p {
+            margin: 5px 0;
+            color: #666;
+        }
+
+        .user-info h3 {
+            margin-top: 10px;
+            font-size: 1.2rem;
+            color: #f5576c;
+        }
+        
+    </style>
+</head>
+<body>
+
+    <script src="http.js"></script>
+</body>
+</html>
